@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/img2"
+    tools:ignore="ExtraText">
+
+
+<TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Mpho's Kitchen"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/timeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:autofillHints="Insert Time Of Day eg.(Morning)"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:hint="enter time of day eg. (morning)"
+        android:textAlignment="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="your meal options are" />
+
+
+
+    <Button
+        android:id="@+id/btnSug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFC0CB"
+        android:insetLeft="55dp"
+        android:insetRight="55dp"
+        android:text="Suggest Meal" />
+
+    <TextView
+        android:id="@+id/suggestMeal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:text="" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnClr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFC0CB"
+        android:insetLeft="55dp"
+        android:insetRight="55dp"
+        android:text="Clear"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/btnExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFC0CB"
+        android:insetLeft="55dp"
+        android:insetRight="55dp"
+        android:text="Close App" />
+
+
+
+</LinearLayout>
+
+
